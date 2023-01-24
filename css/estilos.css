@@ -1,12 +1,11 @@
 /*------------main----------*/
 main{
     background-color:#A6BB8D;
-    border-radius: 15px;
-    box-shadow: #3C6255;
+    border-radius: 5px;
     padding:0px;
     margin: 0px;
     box-shadow: inset;
-    box-shadow: 5px 5px 5px #3C6255 ;
+    box-shadow: 0px 4px 0px #3C6255 ;
 
     }
 h1{
@@ -35,5 +34,63 @@ h3{
     padding-top:10px ;
     padding-bottom: 15px;
     margin: 0px;
-    
     }
+/*-------------aside------------*/
+aside{
+    background-color: #3C6255;
+    border-radius: 5px;
+    padding:0px;
+    margin: 0px;
+    box-shadow: inset;
+    box-shadow: 0px 4px 0px #3C6255 ;
+}
+aside h2{
+       font-family: Arial,"Helvetica", sans-serif;
+       font-size: 18px;
+       font-weight: bold;
+       letter-spacing: 1px;
+       color:#EAE7B1 ;
+       text-align: center;
+       text-transform: uppercase;  
+       border: 0px;
+       padding-top:0px ;
+       margin: 0px;
+}
+aside ul{
+    list-style-type: none;
+    color: #EAE7B1;
+    font-size: 16px;
+    text-transform: capitalize;  
+
+
+}
+figure img{
+    border-radius: 50%;
+    
+}
+figure figcaption{
+    color: #EAE7B1;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+button{
+    color: #EAE7B1;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #A6BB8D;
+    padding: 5px 50px;
+    border: 0px;
+    border-radius: 5px;
+    appearance:unset;
+    color: #EAE7B1;
+    
+}
+button :hover{
+    background-color: #3C6255;
+}
+
