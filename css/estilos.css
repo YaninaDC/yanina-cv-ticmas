@@ -1,0 +1,39 @@
+/*------------main----------*/
+main{
+    background-color:#A6BB8D;
+    border-radius: 15px;
+    box-shadow: #3C6255;
+    padding:0px;
+    margin: 0px;
+    box-shadow: inset;
+    box-shadow: 5px 5px 5px #3C6255 ;
+
+    }
+h1{
+    font-family: Arial,"Helvetica", sans-serif;
+    font-size: 36px;
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color:#EAE7B1 ;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;  
+    border: 0px;
+    padding-top:15px ;
+    margin: 0px;
+    }
+h3{
+    font-family: Arial,"Helvetica", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    color:#EAE7B1 ;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px;
+    padding-top:10px ;
+    padding-bottom: 15px;
+    margin: 0px;
+    
+    }
