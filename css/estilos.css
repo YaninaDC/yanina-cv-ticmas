@@ -14,7 +14,7 @@ h1{
     font-style: oblique;
     font-weight: bold;
     letter-spacing: 5px;
-    color:#EAE7B1 ;
+    color: bisque;;
     text-align: center;
     text-decoration-line: underline;
     text-transform: uppercase;  
@@ -27,7 +27,7 @@ main h3{
     font-size: 16px;
     font-style: normal;
     font-weight: bold;
-    color:#EAE7B1 ;
+    color: bisque;;
     text-align: center;
     text-transform: uppercase;
     border: 0px;
@@ -59,7 +59,7 @@ aside{
     padding:0px;
     margin: 0px;
     box-shadow: inset;
-    box-shadow: 0px 4px 0px #3C6255 ;
+    box-shadow: 0px 4px 0px  bisque;;
     display: left;
     
 }
@@ -68,7 +68,7 @@ aside h2{
        font-size: 18px;
        font-weight: bold;
        letter-spacing: 1px;
-       color: #EAE7B1;
+       color: bisque;;
        text-align: center;
        text-transform: uppercase;  
        border: 0px;
@@ -77,7 +77,7 @@ aside h2{
 }
 aside ul{
     list-style-type: none;
-    color: #EAE7B1;
+    color: bisque;;
     font-size: 16px;
     text-transform: capitalize;  
 
@@ -88,7 +88,7 @@ figure img{
     
 }
 figure figcaption{
-    color: #EAE7B1;
+    color: bisque;;
     font-size: 16px;
     text-transform: capitalize;
     font-weight: bold;
@@ -121,7 +121,7 @@ h2{
     letter-spacing: 1px;
     text-align: left;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 110px;
     border-bottom: #243b33 solid 1px;
 }
 p{
@@ -132,6 +132,8 @@ p{
     text-transform:none;
     line-height: 50px;
     border-radius: 5px;
+    padding: 0px;
+    
 
 }
 h3{
@@ -157,7 +159,7 @@ h4, h5{
 .barra_navegacion ul{
     list-style-type: none;
     background-color: #3C6255;
-    margin: 0px;
+    margin-top: 70px;
     padding: 0px;
     overflow: hidden;
        
@@ -173,14 +175,11 @@ h4, h5{
 .barra_navegacion li a{
     color: #EAE7B1;
     text-transform: uppercase;
-    padding: 15px 50px;
+    padding: 15px 91px;
     display: block;
     text-align: center;
     text-decoration: none;
     font-family: helvetica;
-    
-   
-    
 
 }
 
@@ -188,5 +187,34 @@ h4, h5{
     background-color:#EAE7B1;
     color:#3C6255;
 }
+/*--------estilo de tabla informacion personal---*/
+dl{
+    display: flex;
+    background-color: none;
+    flex-wrap: wrap;
+}
+    
+dd, dt{ 
+    font-family: helvetica;
+    
+    color: #243b33;
+    margin: 0px;
+    flex-basis: 40%;
+    border-bottom: #3C6255 solid 1px;
+    padding: 15px;
+    
+
+}
+
+dt{
+text-transform: capitalize;
+margin-left: 80px;
+
+}
+dd{
+text-transform: uppercase;
+font-weight: bolder;
+}
+
 
     
