@@ -41,18 +41,15 @@ main h3{
     display: flex;
     margin: 0px 50px 0px 50px;
 
-  
-   
-
 }
 .contenedor2{
     margin: 0px 0px 0px 50px;
-
-    
-
+    border-right: #243b33 solid 1px;
+    box-shadow: inset;
+    box-shadow: 0px 4px 0px #3C6255 ;
+    border-bottom-right-radius: 5px;
+   
 }
-
-
 aside{
     background-color: #3C6255;
     border-radius: 5px;
@@ -78,7 +75,9 @@ aside h2{
 aside ul{
     list-style-type: none;
     color: bisque;;
-    font-size: 16px;
+    font-size: 32px;
+    font-display: left;
+    line-height: 50px;
     text-transform: capitalize;  
 
 
@@ -132,7 +131,9 @@ p{
     text-transform:none;
     line-height: 50px;
     border-radius: 5px;
-    padding: 0px;
+    padding: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
     
 
 }
@@ -159,19 +160,16 @@ h4, h5{
 .barra_navegacion ul{
     list-style-type: none;
     background-color: #3C6255;
-    margin-top: 70px;
+    margin-top: 50px;
+    margin-right: 50px;
     padding: 0px;
     overflow: hidden;
        
 }
-
 .barra_navegacion li{
     float: left;
     
 }
-
-
-
 .barra_navegacion li a{
     color: #EAE7B1;
     text-transform: uppercase;
@@ -182,7 +180,6 @@ h4, h5{
     font-family: helvetica;
 
 }
-
 .barra_navegacion li a:hover{
     background-color:#EAE7B1;
     color:#3C6255;
@@ -192,11 +189,11 @@ dl{
     display: flex;
     background-color: none;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
     
 dd, dt{ 
     font-family: helvetica;
-    
     color: #243b33;
     margin: 0px;
     flex-basis: 40%;
