@@ -2,7 +2,7 @@
 main{
     background-color:#A6BB8D;
     border-radius: 5px;
-    padding:0px;
+    padding:80px 0px;
     margin: 0px 50px;
     box-shadow: inset;
     box-shadow: 0px 4px 0px #3C6255 ;
@@ -10,9 +10,9 @@ main{
     }
 h1{
     font-family: Arial,"Helvetica", sans-serif;
-    font-size: 36px;
+    font-size: 40px;
     font-style: oblique;
-    font-weight: bold;
+    font-weight: lighter;
     letter-spacing: 5px;
     color: bisque;;
     text-align: center;
@@ -40,7 +40,7 @@ main h3{
 .contenedor1{
     display: flex;
     margin: 0px 50px 0px 50px;
-
+    
 }
 .contenedor2{
     margin: 0px 0px 0px 50px;
@@ -58,6 +58,7 @@ aside{
     box-shadow: inset;
     box-shadow: 0px 4px 0px  bisque;;
     display: left;
+    flex-basis: 60%;
     
 }
 aside h2{
@@ -66,11 +67,11 @@ aside h2{
        font-weight: bold;
        letter-spacing: 1px;
        color: bisque;;
-       text-align: center;
+       text-align: left;
        text-transform: uppercase;  
-       border: 0px;
+       border-bottom: bisque solid 1px;
        padding-top:0px;
-       margin: 0px;
+       margin: 110px 0px 0px 30px;
 }
 aside ul{
     list-style-type: none;
@@ -83,7 +84,13 @@ aside ul{
 
 }
 figure img{
+    
+    margin-top: 180px;
+
     border-radius: 50%;
+   
+    
+
     
 }
 figure figcaption{
@@ -92,6 +99,7 @@ figure figcaption{
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 button{
