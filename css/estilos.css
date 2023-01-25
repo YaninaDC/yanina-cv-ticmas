@@ -116,11 +116,13 @@ button :hover{
 h2{
     color: #3C6255;
     font-family: Arial,"Helvetica", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: lighter;
     letter-spacing: 1px;
-    text-align: center;
-    text-transform: uppercase
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 50px;
+    border-bottom: #243b33 solid 1px;
 }
 p{
     background-color: bisque;
@@ -140,13 +142,51 @@ h3{
     letter-spacing: 1px;
     text-align: left;
     text-transform: uppercase;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 h4, h5{
     color: #243b33;
     font-family: Arial,"Helvetica", sans-serif;
-    font-size: 14px;
+    font-size: 11px;
     text-align: left;
     text-transform: uppercase;
     margin:0%
 }
+/*------------barra de navegacion------------*/
+
+.barra_navegacion ul{
+    list-style-type: none;
+    background-color: #3C6255;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+       
+}
+
+.barra_navegacion li{
+    float: left;
+    
+}
+
+
+
+.barra_navegacion li a{
+    color: #EAE7B1;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: helvetica;
+    
+   
+    
+
+}
+
+.barra_navegacion li a:hover{
+    background-color:#EAE7B1;
+    color:#3C6255;
+}
+
+    
