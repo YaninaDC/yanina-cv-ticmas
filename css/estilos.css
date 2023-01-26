@@ -71,26 +71,56 @@ aside h2{
        text-transform: uppercase;  
        border-bottom: bisque solid 1px;
        padding-top:0px;
-       margin: 110px 0px 0px 30px;
+       margin: 100px 0px 0px 30px;
 }
-aside ul{
-    list-style-type: none;
-    color: bisque;;
-    font-size: 32px;
-    font-display: left;
-    line-height: 50px;
-    text-transform: capitalize;  
 
-
-}
-figure img{
+aside dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
     
-    margin-top: 180px;
-
-    border-radius: 50%;
+}
+.contacto dd, dt{ 
+        font-family: helvetica;
+        color: bisque;
+        margin: 0px;
+        flex-basis: 40%;
+        border-bottom: bisque solid 1px;
+        padding: 0px;
+    }
+.contacto dt{
+    
+    color: bisque;;
+    font-size: 28px;
+    font-display: right;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 30px;
+    padding: 0px;
+    border-bottom: bisque solid 1px;
+}    
+.contacto dd{
+    text-transform: none;
+    text-align: right;
+    padding-top: 25px;
    
     
+    
 
+}
+  
+
+
+figure {
+    margin-top: 180px;
+}
+
+img{ 
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 220px;
+    height: 220px;
     
 }
 figure figcaption{
@@ -114,8 +144,10 @@ button{
     border-radius: 5px;
     appearance:unset;
     color: #EAE7B1;
-    
+
+
 }
+
 button :hover{
     background-color: #3C6255;
 }
@@ -155,7 +187,7 @@ h3{
     text-transform: uppercase;
     margin-top: 60px;
 }
-h4, h5{
+h4{
     color: #243b33;
     font-family: Arial,"Helvetica", sans-serif;
     font-size: 11px;
@@ -199,7 +231,6 @@ dl{
     flex-wrap: wrap;
     margin-top: 50px;
 }
-    
 dd, dt{ 
     font-family: helvetica;
     color: #243b33;
@@ -210,7 +241,6 @@ dd, dt{
     
 
 }
-
 dt{
 text-transform: capitalize;
 margin-left: 80px;
