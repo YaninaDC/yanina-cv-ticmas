@@ -11,7 +11,6 @@ main{
 h1{
     font-family: Arial,"Helvetica", sans-serif;
     font-size: 40px;
-    font-style: oblique;
     font-weight: lighter;
     letter-spacing: 5px;
     color: bisque;;
@@ -59,7 +58,6 @@ aside{
     box-shadow: 0px 4px 0px  bisque;;
     display: left;
     flex-basis: 60%;
-    
 }
 aside h2{
        font-family: Arial,"Helvetica", sans-serif;
@@ -73,12 +71,10 @@ aside h2{
        padding-top:0px;
        margin: 100px 0px 0px 30px;
 }
-
 aside dl{
     display: flex;
     flex-wrap: wrap;
     margin-top: 90px;
-    
 }
 .contacto dd, dt{ 
         font-family: helvetica;
@@ -89,8 +85,7 @@ aside dl{
         padding: 0px;
     }
 .contacto dt{
-    
-    color: bisque;;
+    color: bisque;
     font-size: 28px;
     font-display: right;
     line-height: 50px;
@@ -103,9 +98,17 @@ aside dl{
     text-transform: none;
     text-align: right;
     padding-top: 25px;  
+}
+a{
+    color: bisque; 
+}
+.contacto a:hover{
+    background-color: bisque;
+    color: #3C6255;
+    border-radius: 5px;
+    border: #EAE7B1 solid 2px;
 
 }
-
 #mail1{
         
    flex-basis: 25%;
@@ -139,6 +142,7 @@ img{
 figure figcaption{
     color: bisque;;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 1px;
